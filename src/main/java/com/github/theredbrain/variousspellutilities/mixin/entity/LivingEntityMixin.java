@@ -1,6 +1,6 @@
-package com.github.theredbrain.variousspells.mixin.entity;
+package com.github.theredbrain.variousspellutilities.mixin.entity;
 
-import com.github.theredbrain.variousspells.VariousSpellUtilities;
+import com.github.theredbrain.variousspellutilities.VariousSpellUtilities;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

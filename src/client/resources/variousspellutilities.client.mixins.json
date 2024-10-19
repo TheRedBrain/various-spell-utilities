@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.github.theredbrain.variousspells.mixin.client",
+	"package": "com.github.theredbrain.variousspellutilities.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 	],

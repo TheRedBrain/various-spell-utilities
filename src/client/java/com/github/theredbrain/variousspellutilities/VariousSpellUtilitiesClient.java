@@ -1,4 +1,4 @@
-package com.github.theredbrain.variousspells;
+package com.github.theredbrain.variousspellutilities;
 
 import net.fabricmc.api.ClientModInitializer;
 

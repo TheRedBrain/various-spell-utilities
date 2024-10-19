@@ -1,6 +1,6 @@
-package com.github.theredbrain.variousspells.mixin.entity.attribute;
+package com.github.theredbrain.variousspellutilities.mixin.entity.attribute;
 
-import com.github.theredbrain.variousspells.VariousSpellUtilities;
+import com.github.theredbrain.variousspellutilities.VariousSpellUtilities;
 import net.minecraft.entity.attribute.ClampedEntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.registry.Registries;

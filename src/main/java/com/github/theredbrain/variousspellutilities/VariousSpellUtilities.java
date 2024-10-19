@@ -1,6 +1,6 @@
-package com.github.theredbrain.variousspells;
+package com.github.theredbrain.variousspellutilities;
 
-import com.github.theredbrain.variousspells.registry.SpellSchoolRegistry;
+import com.github.theredbrain.variousspellutilities.registry.SpellSchoolRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.entity.attribute.EntityAttribute;

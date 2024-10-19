@@ -1,6 +1,6 @@
-package com.github.theredbrain.variousspells.registry;
+package com.github.theredbrain.variousspellutilities.registry;
 
-import com.github.theredbrain.variousspells.VariousSpellUtilities;
+import com.github.theredbrain.variousspellutilities.VariousSpellUtilities;
 import net.fabric_extras.ranged_weapon.api.EntityAttributes_RangedWeapon;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageTypes;
