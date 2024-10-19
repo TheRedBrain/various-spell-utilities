@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Various Spell Utilities
 
-## Setup
+This mod adds various supporting content, that can be used by data packs and content mods.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+It does not add any gameplay content on its own, but gives data pack/mod authors more possibilities to add content.
 
-## License
+Including:
+- 3 Spell Schools ("Generic Melee", "Generic Ranged", "Generic Magic")
+- 1 new entity attribute ("Generic Magic Damage")
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+These spell schools are very generic on purpose. They are designed to be used together with the mods Spell Engine Extension and Damage Overhaul.

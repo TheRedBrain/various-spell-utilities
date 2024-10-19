@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "variousspells",
+	"id": "variousspellutilities",
 	"version": "${version}",
 	"name": "Various Spells",
-	"description": "Adds various spells using the Spell Engine mod.",
+	"description": "Small utility mod, that adds various supporting content for spells using the Spell Engine mod.",
 	"authors": [
 		"TheRedBrain"
 	],
@@ -15,14 +15,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.theredbrain.variousspells.VariousSpells"
+			"com.github.theredbrain.variousspells.VariousSpellUtilities"
 		],
 		"client": [
-			"com.github.theredbrain.variousspells.VariousSpellsClient"
+			"com.github.theredbrain.variousspells.VariousSpellUtilitiesClient"
 		]
 	},
 	"mixins": [
-		"variousspells.mixins.json",
+		"variousspellutilities.mixins.json",
 		{
 			"config": "variousspells.client.mixins.json",
 			"environment": "client"
@@ -33,6 +33,7 @@
 		"fabricloader": ">=${loader_version}",
 		"fabric-api": "*",
 		"cloth-config": ">=${cloth_config_version}",
-		"spell_engine": ">=${spell_engine_version}"
+		"spell_engine": ">=${spell_engine_version}",
+		"ranged_weapon_api": ">=${ranged_weapon_api_version}"
 	}
 }

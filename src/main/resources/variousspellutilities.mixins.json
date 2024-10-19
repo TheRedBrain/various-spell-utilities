@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.github.theredbrain.variousspells.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "entity.LivingEntityMixin",
+    "entity.attribute.EntityAttributesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
