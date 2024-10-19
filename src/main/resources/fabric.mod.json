@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "variousspellutilities",
 	"version": "${version}",
-	"name": "Various Spells",
-	"description": "Small utility mod, that adds various supporting content for spells using the Spell Engine mod.",
+	"name": "Various Spell Utilities",
+	"description": "Small utility mod that adds various supporting content, which can be used by data packs and content mods.",
 	"authors": [
 		"TheRedBrain"
 	],
@@ -11,7 +11,7 @@
 		"sources": "https://github.com/TheRedBrain/various-spells"
 	},
 	"license": "MIT",
-	"icon": "assets/variousspells/icon.png",
+	"icon": "assets/variousspellutilities/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -24,7 +24,7 @@
 	"mixins": [
 		"variousspellutilities.mixins.json",
 		{
-			"config": "variousspells.client.mixins.json",
+			"config": "variousspellutilities.client.mixins.json",
 			"environment": "client"
 		}
 	],
