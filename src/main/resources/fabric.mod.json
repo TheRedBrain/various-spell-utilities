@@ -1,41 +1,38 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "variousspells",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Various Spells",
+	"description": "Adds various spells using the Spell Engine mod.",
 	"authors": [
-		"Me!"
+		"TheRedBrain"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TheRedBrain/various-spells"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/variousspells/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.theredbrain.variousspells.VariousSpells"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.theredbrain.variousspells.VariousSpellsClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"variousspells.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "variousspells.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.2",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"minecraft": "${minecraft_version}",
+		"fabricloader": ">=${loader_version}",
+		"fabric-api": "*",
+		"cloth-config": ">=${cloth_config_version}",
+		"spell_engine": ">=${spell_engine_version}"
 	}
 }
